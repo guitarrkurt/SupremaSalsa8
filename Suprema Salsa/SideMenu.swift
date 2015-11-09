@@ -32,6 +32,7 @@ class SideMenu: UITableViewController {
         
         self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "FondoLSS.png")!)
         //self.tableView.backgroundView?.backgroundColor = UIColor(patternImage: UIImage(named: "blurfo.jpg")!)
+        self.tableView.separatorColor = UIColor.clearColor()
         
         //UIColor.purpleColor().colorWithAlphaComponent(0.1)
         
@@ -41,11 +42,11 @@ class SideMenu: UITableViewController {
         perfil.backgroundColor = UIColor.clearColor()
         
         //perfil.backgroundView?.backgroundColor = UIColor.clearColor()
-        compras.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
+        compras.backgroundColor = UIColor.clearColor()
         //compras.backgroundView?.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
-        mapas.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
+        mapas.backgroundColor = UIColor.clearColor()
         //mapas.backgroundView?.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
-        setting.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
+        setting.backgroundColor = UIColor.clearColor()
         //setting.backgroundView?.backgroundColor = UIColor.clearColor().colorWithAlphaComponent(0.1)
         
         

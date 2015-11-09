@@ -13,11 +13,32 @@
 		4A1F2ADB1BEFEC9A00B88729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */; };
 		4A4D43201BEFFB750021379F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D431F1BEFFB750021379F /* SideMenu.swift */; };
 		6165A0DE1BEFEF3600D818A9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0DD1BEFEF3600D818A9 /* SWRevealViewController.m */; };
-		6165A0E01BEFF18400D818A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0DF1BEFF18400D818A9 /* MainViewController.swift */; };
 		6165A0E21BEFF6BF00D818A9 /* ComprasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */; };
 		6165A0E41BEFF6D600D818A9 /* CuponesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */; };
 		6165A0E61BEFF6EC00D818A9 /* UbicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */; };
 		6165A0E81BEFF6F700D818A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */; };
+		6165A0EA1BF0086A00D818A9 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */; };
+		6165A0EE1BF00B5D00D818A9 /* ComprasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0ED1BF00B5D00D818A9 /* ComprasCollectionViewCell.swift */; };
+		6165A12E1BF015CC00D818A9 /* aguaHorchata.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11A1BF015CC00D818A9 /* aguaHorchata.png */; };
+		6165A12F1BF015CC00D818A9 /* aguaJamaica.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11B1BF015CC00D818A9 /* aguaJamaica.png */; };
+		6165A1301BF015CC00D818A9 /* aguasimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11C1BF015CC00D818A9 /* aguasimple.png */; };
+		6165A1311BF015CC00D818A9 /* arabeKilo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11D1BF015CC00D818A9 /* arabeKilo.png */; };
+		6165A1321BF015CC00D818A9 /* arrachera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11E1BF015CC00D818A9 /* arrachera.png */; };
+		6165A1331BF015CC00D818A9 /* burrito.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11F1BF015CC00D818A9 /* burrito.png */; };
+		6165A1341BF015CC00D818A9 /* carnepastormenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1201BF015CC00D818A9 /* carnepastormenu.png */; };
+		6165A1351BF015CC00D818A9 /* cebollitas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1211BF015CC00D818A9 /* cebollitas.png */; };
+		6165A1361BF015CC00D818A9 /* chalupas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1221BF015CC00D818A9 /* chalupas.png */; };
+		6165A1371BF015CC00D818A9 /* Chistorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1231BF015CC00D818A9 /* Chistorra.png */; };
+		6165A1381BF015CC00D818A9 /* cincoTacosPastor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */; };
+		6165A1391BF015CC00D818A9 /* cochinita2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1251BF015CC00D818A9 /* cochinita2.png */; };
+		6165A13A1BF015CC00D818A9 /* costillas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1261BF015CC00D818A9 /* costillas.png */; };
+		6165A13B1BF015CC00D818A9 /* frijoles.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1271BF015CC00D818A9 /* frijoles.png */; };
+		6165A13C1BF015CC00D818A9 /* gringa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1281BF015CC00D818A9 /* gringa.png */; };
+		6165A13D1BF015CC00D818A9 /* sincronizada.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1291BF015CC00D818A9 /* sincronizada.png */; };
+		6165A13E1BF015CC00D818A9 /* sirlon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12A1BF015CC00D818A9 /* sirlon.png */; };
+		6165A13F1BF015CC00D818A9 /* taco arabe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12B1BF015CC00D818A9 /* taco arabe.png */; };
+		6165A1401BF015CC00D818A9 /* tacobistec.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12C1BF015CC00D818A9 /* tacobistec.png */; };
+		6165A1411BF015CC00D818A9 /* unTacoPastor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12D1BF015CC00D818A9 /* unTacoPastor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +52,32 @@
 		6165A0DB1BEFEF3500D818A9 /* Suprema Salsa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Suprema Salsa-Bridging-Header.h"; sourceTree = "<group>"; };
 		6165A0DC1BEFEF3600D818A9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		6165A0DD1BEFEF3600D818A9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		6165A0DF1BEFF18400D818A9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComprasViewController.swift; sourceTree = "<group>"; };
 		6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuponesViewController.swift; sourceTree = "<group>"; };
 		6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UbicacionViewController.swift; sourceTree = "<group>"; };
 		6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		6165A0ED1BF00B5D00D818A9 /* ComprasCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComprasCollectionViewCell.swift; sourceTree = "<group>"; };
+		6165A11A1BF015CC00D818A9 /* aguaHorchata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguaHorchata.png; sourceTree = "<group>"; };
+		6165A11B1BF015CC00D818A9 /* aguaJamaica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguaJamaica.png; sourceTree = "<group>"; };
+		6165A11C1BF015CC00D818A9 /* aguasimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguasimple.png; sourceTree = "<group>"; };
+		6165A11D1BF015CC00D818A9 /* arabeKilo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arabeKilo.png; sourceTree = "<group>"; };
+		6165A11E1BF015CC00D818A9 /* arrachera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrachera.png; sourceTree = "<group>"; };
+		6165A11F1BF015CC00D818A9 /* burrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burrito.png; sourceTree = "<group>"; };
+		6165A1201BF015CC00D818A9 /* carnepastormenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnepastormenu.png; sourceTree = "<group>"; };
+		6165A1211BF015CC00D818A9 /* cebollitas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cebollitas.png; sourceTree = "<group>"; };
+		6165A1221BF015CC00D818A9 /* chalupas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chalupas.png; sourceTree = "<group>"; };
+		6165A1231BF015CC00D818A9 /* Chistorra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chistorra.png; sourceTree = "<group>"; };
+		6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cincoTacosPastor.png; sourceTree = "<group>"; };
+		6165A1251BF015CC00D818A9 /* cochinita2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cochinita2.png; sourceTree = "<group>"; };
+		6165A1261BF015CC00D818A9 /* costillas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costillas.png; sourceTree = "<group>"; };
+		6165A1271BF015CC00D818A9 /* frijoles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frijoles.png; sourceTree = "<group>"; };
+		6165A1281BF015CC00D818A9 /* gringa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gringa.png; sourceTree = "<group>"; };
+		6165A1291BF015CC00D818A9 /* sincronizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sincronizada.png; sourceTree = "<group>"; };
+		6165A12A1BF015CC00D818A9 /* sirlon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sirlon.png; sourceTree = "<group>"; };
+		6165A12B1BF015CC00D818A9 /* taco arabe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taco arabe.png"; sourceTree = "<group>"; };
+		6165A12C1BF015CC00D818A9 /* tacobistec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacobistec.png; sourceTree = "<group>"; };
+		6165A12D1BF015CC00D818A9 /* unTacoPastor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unTacoPastor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +110,12 @@
 		4A1F2ACF1BEFEC9A00B88729 /* Suprema Salsa */ = {
 			isa = PBXGroup;
 			children = (
+				6165A0F11BF00D2700D818A9 /* Otros */,
+				6165A0EC1BF0094000D818A9 /* OtrasClases */,
+				6165A0EB1BF0092F00D818A9 /* Principal_Compras */,
 				6165A0D81BEFEF1000D818A9 /* SlideOutMenu */,
 				4A1F2AD01BEFEC9A00B88729 /* AppDelegate.swift */,
-				6165A0DF1BEFF18400D818A9 /* MainViewController.swift */,
 				4A1F2AD41BEFEC9A00B88729 /* Main.storyboard */,
-				6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */,
-				6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */,
-				6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */,
-				6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */,
-				4A1F2AD71BEFEC9A00B88729 /* Assets.xcassets */,
-				4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */,
-				4A1F2ADC1BEFEC9A00B88729 /* Info.plist */,
-				4A4D431F1BEFFB750021379F /* SideMenu.swift */,
 			);
 			path = "Suprema Salsa";
 			sourceTree = "<group>";
@@ -92,6 +128,57 @@
 				6165A0DB1BEFEF3500D818A9 /* Suprema Salsa-Bridging-Header.h */,
 			);
 			name = SlideOutMenu;
+			sourceTree = "<group>";
+		};
+		6165A0EB1BF0092F00D818A9 /* Principal_Compras */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */,
+				6165A0ED1BF00B5D00D818A9 /* ComprasCollectionViewCell.swift */,
+			);
+			name = Principal_Compras;
+			sourceTree = "<group>";
+		};
+		6165A0EC1BF0094000D818A9 /* OtrasClases */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */,
+				6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */,
+				6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */,
+				6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */,
+			);
+			name = OtrasClases;
+			sourceTree = "<group>";
+		};
+		6165A0F11BF00D2700D818A9 /* Otros */ = {
+			isa = PBXGroup;
+			children = (
+				6165A11A1BF015CC00D818A9 /* aguaHorchata.png */,
+				6165A11B1BF015CC00D818A9 /* aguaJamaica.png */,
+				6165A11C1BF015CC00D818A9 /* aguasimple.png */,
+				6165A11D1BF015CC00D818A9 /* arabeKilo.png */,
+				6165A11E1BF015CC00D818A9 /* arrachera.png */,
+				6165A11F1BF015CC00D818A9 /* burrito.png */,
+				6165A1201BF015CC00D818A9 /* carnepastormenu.png */,
+				6165A1211BF015CC00D818A9 /* cebollitas.png */,
+				6165A1221BF015CC00D818A9 /* chalupas.png */,
+				6165A1231BF015CC00D818A9 /* Chistorra.png */,
+				6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */,
+				6165A1251BF015CC00D818A9 /* cochinita2.png */,
+				6165A1261BF015CC00D818A9 /* costillas.png */,
+				6165A1271BF015CC00D818A9 /* frijoles.png */,
+				6165A1281BF015CC00D818A9 /* gringa.png */,
+				6165A1291BF015CC00D818A9 /* sincronizada.png */,
+				6165A12A1BF015CC00D818A9 /* sirlon.png */,
+				6165A12B1BF015CC00D818A9 /* taco arabe.png */,
+				6165A12C1BF015CC00D818A9 /* tacobistec.png */,
+				6165A12D1BF015CC00D818A9 /* unTacoPastor.png */,
+				4A1F2AD71BEFEC9A00B88729 /* Assets.xcassets */,
+				4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */,
+				4A1F2ADC1BEFEC9A00B88729 /* Info.plist */,
+				4A4D431F1BEFFB750021379F /* SideMenu.swift */,
+			);
+			name = Otros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +239,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6165A12F1BF015CC00D818A9 /* aguaJamaica.png in Resources */,
+				6165A1351BF015CC00D818A9 /* cebollitas.png in Resources */,
+				6165A1321BF015CC00D818A9 /* arrachera.png in Resources */,
 				4A1F2ADB1BEFEC9A00B88729 /* LaunchScreen.storyboard in Resources */,
 				4A1F2AD81BEFEC9A00B88729 /* Assets.xcassets in Resources */,
+				6165A1331BF015CC00D818A9 /* burrito.png in Resources */,
+				6165A13B1BF015CC00D818A9 /* frijoles.png in Resources */,
+				6165A1381BF015CC00D818A9 /* cincoTacosPastor.png in Resources */,
+				6165A13E1BF015CC00D818A9 /* sirlon.png in Resources */,
+				6165A1371BF015CC00D818A9 /* Chistorra.png in Resources */,
+				6165A13F1BF015CC00D818A9 /* taco arabe.png in Resources */,
+				6165A1411BF015CC00D818A9 /* unTacoPastor.png in Resources */,
+				6165A1311BF015CC00D818A9 /* arabeKilo.png in Resources */,
 				4A1F2AD61BEFEC9A00B88729 /* Main.storyboard in Resources */,
+				6165A1361BF015CC00D818A9 /* chalupas.png in Resources */,
+				6165A1341BF015CC00D818A9 /* carnepastormenu.png in Resources */,
+				6165A12E1BF015CC00D818A9 /* aguaHorchata.png in Resources */,
+				6165A1301BF015CC00D818A9 /* aguasimple.png in Resources */,
+				6165A13D1BF015CC00D818A9 /* sincronizada.png in Resources */,
+				6165A13C1BF015CC00D818A9 /* gringa.png in Resources */,
+				6165A13A1BF015CC00D818A9 /* costillas.png in Resources */,
+				6165A1401BF015CC00D818A9 /* tacobistec.png in Resources */,
+				6165A1391BF015CC00D818A9 /* cochinita2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6165A0EA1BF0086A00D818A9 /* CuentaViewController.swift in Sources */,
 				6165A0E41BEFF6D600D818A9 /* CuponesViewController.swift in Sources */,
-				6165A0E01BEFF18400D818A9 /* MainViewController.swift in Sources */,
 				6165A0E81BEFF6F700D818A9 /* SettingsViewController.swift in Sources */,
 				4A4D43201BEFFB750021379F /* SideMenu.swift in Sources */,
 				6165A0E61BEFF6EC00D818A9 /* UbicacionViewController.swift in Sources */,
 				4A1F2AD11BEFEC9A00B88729 /* AppDelegate.swift in Sources */,
 				6165A0E21BEFF6BF00D818A9 /* ComprasViewController.swift in Sources */,
 				6165A0DE1BEFEF3600D818A9 /* SWRevealViewController.m in Sources */,
+				6165A0EE1BF00B5D00D818A9 /* ComprasCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  CuentaViewController.swift
 //  Suprema Salsa
 //
 //  Created by guitarrkurt on 08/11/15.
@@ -8,17 +8,17 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
-
+class CuentaViewController: UIViewController {
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
+        super.viewDidLoad()
         super.viewDidLoad()
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-
     }
 
     override func didReceiveMemoryWarning() {
